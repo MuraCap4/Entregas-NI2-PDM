@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FormularioPedido"
+    android:padding="10sp"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textPedido"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:textColor="@color/appColor1"
+        />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="411dp"
+        android:layout_height="330dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        app:srcCompat="@drawable/lanchefacil" />
+
+    <CheckBox
+        android:id="@+id/cbLanche1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lanche1" />
+
+    <CheckBox
+        android:id="@+id/cbLanche2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lanche2" />
+
+    <CheckBox
+        android:id="@+id/cbLanche3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lanche3" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/editTextHint1" />
+
+    <Button
+        android:id="@+id/btnT2Set"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnSet"
+        android:backgroundTint="@color/appColor1"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.google.android.material.textfield.TextInputLayout>
+</LinearLayout>

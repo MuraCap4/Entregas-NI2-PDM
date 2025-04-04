@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="appTitulo">Catálogo de Compras</string>
+    <string name="appArroz">Arroz - 1kg (R$2,69)</string>
+    <string name="appLeite">Leite longa vida (R$2,70)</string>
+    <string name="appCarne">Carne Friboi (R$16,70)</string>
+    <string name="appFeijão">Feijão Carioquinha - 1kg (R$3,38)</string>
+    <string name="appRefri">Refrigerante Coca-Cola 2 Litros (R$3,00)</string>
+    <string name="btnTotal">Total da Compra</string>
+    <string name="textResultado">-----</string>
+
+</resources>

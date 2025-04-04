@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Cores do Projeto -->
+    <color name="appColor1">#523622</color>
+    <color name="appColor2">#00A859</color>
+    <color name="appColor3">#4D4D4D</color>
+    <color name="appColor4">#B3B3B3</color>
+    <color name="appColor5">#FFFFFF</color>
+
+    <!-- String/Desc da logo da Página 1 do Projeto (MainActivity1)-->
+    <string name="appImgDescLogo">Logo da Lanche Fácil</string>
+    <string name="appBtnT1Set">Registrar Pedido</string>
+
+
+    <!-- String das Páginas)-->
+    <string name="btnT2Fechar">Fechar</string>
+    <string name="textT2Resultado">-----</string>
+    <string name="editTextHint1">Digite seu nome completo</string>
+    <string name="btnSet">Confirmar pedido</string>
+    <string name="btnReset">Limpar</string>
+    <string name="textPedido">Faça seu pedido!</string>
+
+    <!--Valores e Nomes dos lanches-->
+    <string name="lanche1">Felicidade em Pão com Carne (R$34,90)</string>
+    <string name="lanche2">Fácil e Rápido (R$30,90)</string>
+    <string name="lanche3">Eu sou a Velocidade (R$40,90)</string>
+
+    <!-- Mensagens de Motivação -->
+    <string name="msgPedidoRealizado">Pedido realizado com sucesso!</string>
+</resources>

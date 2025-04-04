@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="10dp">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        app:srcCompat="@drawable/pizzariaimage" />
+
+    <TextView
+        android:id="@+id/textEscolhaSabor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:text="@string/escolhaSabor"
+        android:textColor="@color/appColor1"/>
+
+    <CheckBox
+        android:id="@+id/cbSabor1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sabor1"
+        android:textColor="@color/appColor1"
+        android:textStyle="bold"
+        android:fontFamily="monospace"/>
+
+    <CheckBox
+        android:id="@+id/cbSabor2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sabor2"
+        android:textColor="@color/appColor1"
+        android:textStyle="bold"
+        android:fontFamily="monospace"/>
+
+    <CheckBox
+        android:id="@+id/cbSabor3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sabor3"
+        android:textColor="@color/appColor1"
+        android:textStyle="bold"
+        android:fontFamily="monospace"/>
+
+    <Button
+        android:id="@+id/btnT1Set"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnT1Set"
+        android:backgroundTint="@color/appColor1"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        />
+</LinearLayout>

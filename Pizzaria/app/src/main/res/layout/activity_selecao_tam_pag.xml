@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SelecaoTamPag"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:srcCompat="@drawable/pizzariaimage" />
+
+    <TextView
+        android:id="@+id/textEscolhaTam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:text="@string/escolhaTam"
+        android:textColor="@color/appColor1"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/rbPeq"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tam1"
+            android:textColor="@color/appColor1"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            />
+
+        <RadioButton
+            android:id="@+id/rbMedio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tam2"
+            android:textColor="@color/appColor1"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            />
+
+        <RadioButton
+            android:id="@+id/rbGrande"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tam3"
+            android:textColor="@color/appColor1"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:text="@string/escolhaPag"
+        android:textColor="@color/appColor1"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/rbCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pagCard"
+            android:textColor="@color/appColor1"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            />
+
+        <RadioButton
+            android:id="@+id/rbDin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pagDinheiro"
+            android:textColor="@color/appColor1"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnT2Set"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnT2Set"
+        android:backgroundTint="@color/appColor1"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        />
+</LinearLayout>

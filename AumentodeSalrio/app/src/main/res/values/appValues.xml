@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Cores do Projeto -->
+    <color name="appColor1">#006341</color>
+    <color name="appColor2">#00A859</color>
+    <color name="appColor3">#4D4D4D</color>
+    <color name="appColor4">#B3B3B3</color>
+    <color name="appColor5">#FFFFFF</color>
+
+    <!-- String das Páginas-->
+    <string name="textResultado">-----</string>
+    <string name="editTextHint1">Digite seu salário</string>
+    <string name="btnSet">Mostrar novo salário</string>
+    <string name="valor1">40%</string>
+    <string name="valor2">45%</string>
+    <string name="valor3">50%</string>
+</resources>

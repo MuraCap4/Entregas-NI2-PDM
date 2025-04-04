@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="escolhaSabor">Escolha o/os Sabor da Pizza:</string>
+    <string name="sabor1">Calabersa</string>
+    <string name="sabor2">Marguerita</string>
+    <string name="sabor3">Portuguesa</string>
+    <string name="btnT1Set">Continuar pedido</string>
+
+    <string name="escolhaTam">Escolha o tamanho da Pizza:</string>
+    <string name="tam1">Pequena - 8 fatias (R$34.90)</string>
+    <string name="tam2">Média - 12 Fatias (R$45.90)</string>
+    <string name="tam3">Grande - 16 Fatias (R$62.90)</string>
+
+    <string name="escolhaPag">Escolha a Forma de Pagamento:</string>
+    <string name="pagCard">Cartão - Débito / Crédito</string>
+    <string name="pagDinheiro">Dinheiro</string>
+
+    <string name="btnT2Set">Realizar Pedido</string>
+
+    <string name="resumoResultado">-----</string>
+    <string name="pedidoRealizado">Pedido realizado com sucesso!</string>
+    <string name="textT3ValorTotal">-----</string>
+    <string name="btnT2Fechar">Fechar</string>
+
+    <color name="appColor1">#3d3b3a</color>
+
+</resources>

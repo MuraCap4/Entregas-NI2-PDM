@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editTextSalario"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:fontFamily="monospace"
+            android:hint="@string/editTextHint1"
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.5" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rbValor1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/valor1" />
+
+            <RadioButton
+                android:id="@+id/rbValor2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/valor2" />
+
+            <RadioButton
+                android:id="@+id/rbValor3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/valor3" />
+
+            <Button
+                android:id="@+id/btnSet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btnSet" />
+
+            <TextView
+                android:id="@+id/textResultado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:text="@string/textResultado"
+                android:textSize="20sp"
+                android:textAlignment="center"/>
+
+        </RadioGroup>
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+</LinearLayout>
+
