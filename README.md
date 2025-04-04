@@ -1,6 +1,8 @@
 # Entregas-NI2
  Entrega dos Apps da NI2 de Programação de Dispositivos Móveis
 
+ Murilo Vieira - RA: 24025726
+
 Questão 01 - Catálogo de Compras: O app consiste em uma lista de produtos que, quando selecionados através de CheckBoxes, calculam o preço total da compra após clicar no botão.
 
 Questão 02 - Aumento de Salário: O app consiste em poder digitar o seu salário, e através de RadioButtons, é possível determinar qual a porcentagem de aumento que seria adicionada (40% ou 45% ou 50%) e, ao clicar no botão, é mostrado o novo salário.
